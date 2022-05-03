@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .button { // only to show that way to do
+    @apply bg-violet-800 px-4 h-10 rounded text-violet-100;
+} */
