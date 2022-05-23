@@ -34,14 +34,14 @@ export class SubmitFeedbackUseCase {
             screenshot,
         })
 
-        await this.mailAdapter.sendMail({
-            subject: 'Novo Feedback',
-            body: [
-                `<div style="font-family: sans-serif; font-size: 16px; color: #333333;">`,
-                `<p>Tipo do feedback: ${type}</p>`,
-                `<p>Comentário: ${comment}</p>`,
-                `</div>`,
-            ].join('\n')
-        })
+        // await this.mailAdapter.sendMail({
+        //     subject: 'Novo Feedback',
+        //     body: [
+        //         `<div style="font-family: sans-serif; font-size: 16px; color: #333333;">`,
+        //         `<p>Tipo do feedback: ${type}</p>`,
+        //         `<p>Comentário: ${comment}</p>`,
+        //         `</div>`,
+        //     ].join('\n')
+        // })
     }
 }
